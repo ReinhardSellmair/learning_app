@@ -155,5 +155,6 @@ The project relies on the following Python libraries:
 - openai
 - langchain-openai
 - streamlit
+
 Install all dependencies using the requirements.txt file.
 
