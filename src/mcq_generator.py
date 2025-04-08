@@ -1,6 +1,3 @@
-# TODO:
-# - handle case if no question can be generated from context
-
 # class to generate multiple choice questions
 from langchain_openai import ChatOpenAI
 from langchain.schema.messages import HumanMessage, SystemMessage
@@ -228,7 +225,7 @@ class MCQGenerator:
 
         return pd.DataFrame.from_dict(results, orient='index', columns=["Count"])
     
-    def _update_rejection_count(self,):
+    def _update_rejection_count(self):
         # get selected section ids
         section_ids = self.cur_mcq['section_ids']
         # update section rejection count
