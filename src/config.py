@@ -31,7 +31,7 @@ REJECTION_WEIGHT = 0.5
 SECTIONS_EXCLUDE = ['See also', 'References', 'External links', 'Further reading']
 
 # number of sections to sample to create context
-N_SECTIONS_SELECT = 3
+N_SECTIONS_SELECT = 1
 
 # number of multiple choice answers
 N_CHOICES = 4

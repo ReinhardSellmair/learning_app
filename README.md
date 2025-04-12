@@ -157,4 +157,3 @@ The project relies on the following Python libraries:
 - streamlit
 
 Install all dependencies using the requirements.txt file.
-
