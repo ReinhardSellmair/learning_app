@@ -36,9 +36,9 @@ Instructions:
 - Provide exactly {n_choices} answer choices, ensuring the first one is the correct answer.
 - Include a concise explanation of why the correct answer is correct.
 - Do not return anything else than the json output.
-- The provided explantion should not assume the user is aware of the context. Avoid formulations like "As stated in the text...".
-- The response must be machine reaadable and not contain line breaks.
-- Check if it is possible to generate a question based on the provided context that is aligned with the user reqeust. If it is not possible set the generated question to "{fail_keyword}".
+- The provided explanation should not assume the user is aware of the context. Avoid formulations like "As stated in the text...".
+- The response must be machine readable and not contain line breaks.
+- Check if it is possible to generate a question based on the provided context that is aligned with the user request. If it is not possible set the generated question to "{fail_keyword}".
 """
 
 def keyword_sys_prompt(n=N_KEYWORDS):
